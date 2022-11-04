@@ -1,0 +1,13 @@
+*{
+background-color: #56042c;}
+
+*{color:white}
+
+.projectImg{
+    opacity:.5
+}
+
+.projectImg:hover{
+    opacity: 1;
+
+}
