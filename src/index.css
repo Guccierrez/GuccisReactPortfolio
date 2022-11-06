@@ -1,13 +1,15 @@
 *{
-background-color: #56042c;}
+background-color: darkgrey;}
+
 
 *{color:white}
 
 .projectImg{
-    opacity:.5
+    opacity:.5;
+
 }
 
 .projectImg:hover{
     opacity: 1;
-
+    transform: scale(1.1); 
 }

@@ -1,19 +1,26 @@
 import React from 'react';
 
+const styles = {
+  image:{
+   paddingLeft:40,
+  },
+};
+
+
 export default function About() {
   return (
     <div>
 
-      <h1>About Me</h1>
+      <h1 style={styles.image}>About Me</h1>
 
       <div className="row">
-        <div className="col-6">
+        <div className="col-6"  style={styles.image}>
 
-          <img src={require("../../assets/Profile-pic.jpeg")} alt="Selfie of Fabian Gutierrez" width="600" height="480" />
+          <img src={require("../../assets/Profile-pic.jpeg")} alt="Selfie of Fabian Gutierrez" width="500" height="420" />
 
         </div>
 
-        <div className="col-6">
+        <div className="col-5">
           <p>
             Console.log(Hello world, or whoever is reading this)! My name is Fabian Gutierrez and
             I'm hoping to break into the tech industry. I worked for 6 years in construction,
