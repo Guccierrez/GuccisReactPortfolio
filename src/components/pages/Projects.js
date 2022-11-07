@@ -5,7 +5,7 @@ const styles = {
   card:{
    display: "flex",
    justifyContent:"space-around",
-   paddingTop:80,
+ paddingBottom:50,
   },
 };
 
@@ -13,9 +13,10 @@ const styles = {
 export default function Projects() {
   return (
     <div>
+       <h1>My Projects</h1>
      <div  style={styles.card}>
     
-    <Card style={{ width: '22rem' }} className = "projectImg">
+    <Card style={{ width: '23rem' }} className = "projectImg">
       <Card.Img variant="top" src={require("../../assets/HappyHoliday.png")} />
       <Card.Body>
         <Card.Title>The Happy Holidays Gift Tracker</Card.Title>
@@ -31,7 +32,7 @@ export default function Projects() {
     </Card>
 
 
-<Card style={{ width: '22rem' }} className = "projectImg">
+<Card style={{ width: '23rem' }} className = "projectImg">
       <Card.Img variant="top" src={require("../../assets/ISSScreenshot.png")} />
       <Card.Body>
         <Card.Title>I.S.S tracker</Card.Title>
@@ -45,7 +46,7 @@ export default function Projects() {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }} className = "projectImg">
+    <Card style={{ width: '23rem' }} className = "projectImg">
       <Card.Img variant="top" src={require("../../assets/teamGenerator.png")} />
       <Card.Body>
         <Card.Title>Gucci's Team Profile Generator</Card.Title>
@@ -60,7 +61,7 @@ export default function Projects() {
     </div> 
 
     <div style={styles.card} >
-    <Card style={{ width: '22rem' }} className = "projectImg">
+    <Card style={{ width: '23rem' }} className = "projectImg">
       <Card.Img variant="top" src={require("../../assets/weatherForcast.png")} />
       <Card.Body>
         <Card.Title>Always Sunny Weather Dashboard</Card.Title>
@@ -74,33 +75,32 @@ export default function Projects() {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }} className = "projectImg">
-      <Card.Img variant="top" src={require("../../assets/weatherForcast.png")} />
+    <Card style={{ width: '23rem' }} className = "projectImg">
+      <Card.Img variant="top" src={require("../../assets/BestNotesApp.png")} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>The World's Best Notes App</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Have you ever needed to take notes AND save them? Well now you can(well as long as you have access to the web)
+          Not only that but once you don't need them anymore there's a nuilt in delete function!
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://guccierrez.github.io/WeatherDash/">Deployed Project</Card.Link>
-        <Card.Link href="#">Link to Repositories</Card.Link>
+        <Card.Link href="https://quiet-lowlands-11282.herokuapp.com/">Deployed Project</Card.Link>
+        <Card.Link href="https://github.com/Guccierrez/BestNoteTakerApp">Link to Repositories</Card.Link>
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '22rem' }} className = "projectImg">
-      <Card.Img variant="top" src={require("../../assets/weatherForcast.png")} />
+    <Card style={{ width: '23rem' }} className = "projectImg">
+      <Card.Img variant="top" src={require("../../assets/TimedQuiz.png")} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Javascript Timed Quiz</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Test your knowledge of JS with this state of the art quiz, that not only counts down faster when you
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://guccierrez.github.io/WeatherDash/">Deployed Project</Card.Link>
-        <Card.Link href="#">Link to Repositories</Card.Link>
+        <Card.Link href="https://guccierrez.github.io/Timed_Quiz/">Deployed Project</Card.Link>
+        <Card.Link href="https://github.com/Guccierrez/Timed_Quiz">Link to Repositories</Card.Link>
       </Card.Body>
     </Card>
 </div>
