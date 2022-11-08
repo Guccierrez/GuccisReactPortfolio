@@ -4,7 +4,8 @@ export default function Contact() {
   return (
 
     <div className="container">
-  <h1>Contact Info</h1>
+  <h1>Contact</h1>
+  <h4>feel free to message me with any questions or concerns</h4>
   <form target="_blank" action="https://formsubmit.co/eb6b099a4693b79c495549591b816287" method="POST">
     <div className="form-group">
       <div className="form-row">
