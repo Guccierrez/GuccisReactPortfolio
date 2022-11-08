@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/GuccisReactPortfolio/static/css/main.10f34286.css",
-    "main.js": "/GuccisReactPortfolio/static/js/main.caa99f3a.js",
+    "main.js": "/GuccisReactPortfolio/static/js/main.3c21471f.js",
     "static/js/787.e29dc422.chunk.js": "/GuccisReactPortfolio/static/js/787.e29dc422.chunk.js",
     "static/media/ISSScreenshot.png": "/GuccisReactPortfolio/static/media/ISSScreenshot.3cac7753ea956ba205c0.png",
     "static/media/HappyHoliday.png": "/GuccisReactPortfolio/static/media/HappyHoliday.8cd27e57cb4fabb1ca61.png",
     "static/media/TimedQuiz.png": "/GuccisReactPortfolio/static/media/TimedQuiz.4fb410700b5def050a59.png",
+    "static/media/resumeScreenshot.png": "/GuccisReactPortfolio/static/media/resumeScreenshot.4432239b1dcc97106da3.png",
     "static/media/weatherForcast.png": "/GuccisReactPortfolio/static/media/weatherForcast.18dcd8ddd82efbd95692.png",
     "static/media/Profile-pic.jpeg": "/GuccisReactPortfolio/static/media/Profile-pic.c2a280c6046cb83561f4.jpeg",
     "static/media/meta-logo.png": "/GuccisReactPortfolio/static/media/meta-logo.0da2968a0d1cf30710ca.png",
@@ -14,11 +15,11 @@
     "static/media/GitHub-Logo.png": "/GuccisReactPortfolio/static/media/GitHub-Logo.05525cd9027955dbe054.png",
     "index.html": "/GuccisReactPortfolio/index.html",
     "main.10f34286.css.map": "/GuccisReactPortfolio/static/css/main.10f34286.css.map",
-    "main.caa99f3a.js.map": "/GuccisReactPortfolio/static/js/main.caa99f3a.js.map",
+    "main.3c21471f.js.map": "/GuccisReactPortfolio/static/js/main.3c21471f.js.map",
     "787.e29dc422.chunk.js.map": "/GuccisReactPortfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10f34286.css",
-    "static/js/main.caa99f3a.js"
+    "static/js/main.3c21471f.js"
   ]
 }
